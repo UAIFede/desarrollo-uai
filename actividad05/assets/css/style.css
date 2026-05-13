@@ -1,0 +1,137 @@
+/* DESKTOP */
+body {
+    font-family: 'Encode Sans', sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.subtitle-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subtitle-left {
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    font-family: 'Space Mono', monospace;
+    color: #ffffff;
+    background: #f15a08;
+}
+
+.subtitle-right{
+    font-size: 12px;
+    color: #adadad;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 60px;
+    color: #202020;
+    margin-bottom: 19px;
+    font-weight: 900;
+}
+
+.first-text{
+    font-size: 22px;
+    line-height: 32px;
+    color: #202020;
+    margin-bottom: 39px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 19px;
+    line-height: 30px;
+    text-align: left;
+    color: #343434;
+    margin-bottom: 30px;
+}
+
+.author {
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    line-height: 1;
+    color: #807b7b;
+    margin-bottom: 40px;
+}
+
+.author-strong {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery-caption {
+    display: block;
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 30px;
+}
+
+.foto-desc {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .container {
+        margin: 0;
+        padding: 15px;
+        box-shadow: none;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: 38px;
+        margin-top: 20px;
+    }
+
+    .first-text {
+        font-size: 19px;
+        line-height: 28px;
+        margin-bottom: 25px;
+    }
+
+    p {
+        font-size: 17px;
+        line-height: 26px;
+    }
+
+    .subtitle-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .author {
+        margin-bottom: 25px;
+    }
+}
